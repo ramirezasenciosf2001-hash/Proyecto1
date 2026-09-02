@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio - Semántica HTML5 con Estilos</title>
+
+    <!-- METATAGS Y SEO (DÍA 2) -->
+    <meta name="description" content="Aprende maquetación web modular con HTML semántico, CSS3 y buenas prácticas de desarrollo.">
+    <meta property="og:title" content="Mi Sitio - Semántica HTML5">
+    <meta property="og:description" content="Aprende desarrollo web profesional con etiquetas semánticas y buenas prácticas.">
+    <meta property="og:image" content="https://picsum.photos/600/300">
+    <meta property="og:url" content="https://misitio.com">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Contenedor principal */
+        .contenedor {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            border: 3px dashed #7f8c8d;
+            border-radius: 12px;
+            padding: 20px;
+            position: relative;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <header>
+            <h1>Mi Sitio Web</h1>
+            <nav>
+                <a href="#">Inicio</a> | 
+                <a href="#">Servicios</a> | 
+                <a href="#">Contacto</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Bienvenidos a mi proyecto</h2>
+                <p>Este es un sitio optimizado con HTML semántico y metaetiquetas SEO.</p>
+                <!-- Imagen funcional desde internet -->
+                <img src="https://picsum.photos/600/300" alt="Imagen descriptiva del proyecto">
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Mi Sitio - Todos los derechos reservados</p>
+        </footer>
+    </div>
+
+    <!-- PREGUNTAS DE METACOGNICIÓN (DÍA 2) -->
+    <!-- 
+    1. ¿Qué relación hay entre semántica y SEO?
+    R: Las etiquetas semánticas ayudan a los buscadores como Google a entender la estructura y el significado del contenido para indexarlo y posicionarlo mejor.
+
+    2. ¿Para qué sirven las metaetiquetas Open Graph?
+    R: Sirven para controlar cómo se muestran el título, la descripción y la imagen de vista previa cuando compartimos el enlace en redes sociales o mensajería.
+
+    3. ¿Cómo influyen los encabezados (H1-H6) en la indexación web?
+    R: Establecen una jerarquía clara del contenido; el H1 indica el tema principal de la página y los demás H2-H6 organizan los subtítulos para que los buscadores los prioricen.
+
+    4. ¿Qué metaetiquetas optimizaste en tu proyecto y por qué crees que son importantes?
+    R: Optimizé <title>, <meta name="description"> y las etiquetas Open Graph (og:title, og:description, og:image), porque mejoran la apariencia del sitio en los resultados de búsqueda de Google y al compartirlo en redes.
+    -->
+
+</body>
+</html>
